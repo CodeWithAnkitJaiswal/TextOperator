@@ -18,8 +18,8 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('https://codewithankitjaiswal.github.io/textoperator/', admin.site.urls),
-    path('', /templets/views.home, name='home'),
+    path('https://codewithankitjaiswal.github.io/textoperator/admin', admin.site.urls),
+    path('', views.home, name='home'),
     path('contact', views.contact, name='contact'),
     path('blog', views.blog, name='blog')
 ]

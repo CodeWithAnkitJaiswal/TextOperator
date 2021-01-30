@@ -19,7 +19,7 @@ from . import views
 
 urlpatterns = [
     path('https://codewithankitjaiswal.github.io/textoperator/', admin.site.urls),
-    path('', views.home, name='home'),
+    path('', /templets/views.home, name='home'),
     path('contact', views.contact, name='contact'),
     path('blog', views.blog, name='blog')
 ]
